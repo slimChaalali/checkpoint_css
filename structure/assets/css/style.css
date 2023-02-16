@@ -1,0 +1,249 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.header{
+    height: 100vh ;
+    width: 100%;
+    background-image: url(../images/background.jpg);
+    background-position: 75% 25%;
+    background-size: cover;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+
+.logo{
+    color: aliceblue;
+    font-size:  35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+    
+}
+span{
+    color: aqua;
+}
+
+nav ul li{
+    display:inline;
+    padding: 60px 25px;
+    
+    
+}
+nav ul li a {
+    color:white;
+    font-size: bold;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+ nav ul li i{
+    color:aqua;
+    padding-right: 40px;
+    width: 20px;
+   
+    
+ }
+
+
+.content{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    
+}
+h1{
+    color: azure;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+    font-family: 'Roboto', sans-serif;
+
+}
+h3{
+    color: azure;
+    margin-bottom: 50px;
+    font-size: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+h4{
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.emailme form{
+    width: 380px;
+    max-width: 100%;
+    position: relative;
+}
+.emailme form input:first-child{
+    display: inline-block;
+    width: 100%;
+    padding: 14px 130px 14px 15px;
+    border: 2px solid aqua;
+    border-radius: 30px;
+}
+.emailme form button{
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 13px;
+    margin-left:0px ;
+    border-radius: 20px;
+} 
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-image: url(../images/about.jpg);
+
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 930px;
+    max-width: 40%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background: black;
+    opacity: .7;
+    border-radius: 20px;
+}
+.about-text h2{
+    color: white;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+    font-family: 'Roboto', sans-serif;
+}
+.about-text p{
+    color: #fcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 30px;
+    font-family: 'Roboto', sans-serif;
+}
+button{
+  background-color: aqua;
+  border: none;
+  color: white;
+  padding: 15px 40px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 30px;
+  font-size: 16px;
+}
+.service{
+    background-image:url(../images/work.png) ;
+    width: 100%;
+    padding: 100px 0px;
+}
+.title h2{
+    color: aliceblue;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+.box{
+    display: inline-block;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.card{
+    height: 365px;
+    width: 335px;
+    padding: 20px 35px;
+    background: #191919;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    text-align: center;
+    opacity: .9;
+}
+
+h5{
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.pra p{
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.card .buttom{
+    background-color: aqua;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.contact{
+    width: 100%;
+    padding: 100px 0px;
+    background-image:url(../images/footer.png) ;
+
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    
+}
+
+footer ul li{
+    list-style-type: none;
+    display:inline-block;
+    padding: 10px 25px;
+    color:black; 
+    font-family: 'Roboto', sans-serif; 
+}
+
+
+footer ul  i{
+    transform: scale(1.2);
+    width: 100%;
+    padding-left: 30%;
+
+}
+
+
